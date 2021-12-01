@@ -1,15 +1,18 @@
 {
-  "name": "restApi",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
     "dev": "nodemon app"
   },
+  "engines":{
+    "node": "14.x"
+  },
   "keywords": [],
-  "author": "",
+  "author": "mahmoud",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
